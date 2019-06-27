@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, View, Text, Image } from 'react-native'
 
-class FilmItem extends React.Component {
+export default class FilmItem extends React.Component {
     render(){
         return(
             <View
@@ -74,5 +74,3 @@ const styles = StyleSheet.create({
 
     }
 })
-
-export default FilmItem
