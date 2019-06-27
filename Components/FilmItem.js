@@ -15,7 +15,7 @@ export default class FilmItem extends React.Component {
             style={styles.item_image}
             source={require('../assets/new_logo_lba.png')}
             />
-
+            
             <View
             style={styles.second_container}>
             
